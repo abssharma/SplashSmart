@@ -55,7 +55,7 @@ def classify_image(img_path):
     
     
     val = model.predict(images)
-    return 'Yes! This picture contain water waste' if val < 0.5 else 'No! This picture does not contain water waste'
+    return 'No! This picture does not contain water waste' if val < 0.5 else 'Yes! This picture contain water waste'
 
 def label(lab):
     if lab:
