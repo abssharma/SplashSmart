@@ -16,8 +16,6 @@ const Home = () => {
 
       <div>
         <header className="relative text-center mb-16 w-6">
-          <br/>
-          <h1 className="text-8xl font-extrabold text-white mt-6">SPLASH SMART</h1>
         </header>
         <section className="px-10 py-100 grid lg:grid-cols-3 gap-6 p-18 mt-16">
 
@@ -25,7 +23,7 @@ const Home = () => {
         
         <div className="bg-white hover:bg-blue-500 p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl flex flex-col justify-between">
           <div>
-            <h2 className="text-2xl font-semibold text-black mb-4">Report Water Abuse</h2>
+            <h2 className="text-xl font-semibold text-black mb-4">Report Water Abuse</h2>
             <p className="text-black leading-relaxed">
             Submit reports and upload evidence of mis-management of water directly from your phone. Your actions can make a significant impact.
             </p>
@@ -54,7 +52,7 @@ const Home = () => {
 
           <div className="bg-white hover:bg-blue-500 p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl flex flex-col justify-between">
           <div>
-            <h2 className="text-2xl font-semibold text-black mb-4">Tensorflow-Powered Detection</h2>
+            <h2 className="text-xl font-semibold text-black mb-4">Tensorflow-Powered Detection</h2>
             <p className="text-gray-800 leading-relaxed">
               Our Machine Learning algorithm analyzes images to identify potential signs of water wastage. Advanced technology working for water management.
             </p>
